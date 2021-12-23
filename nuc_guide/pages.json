@@ -1,0 +1,76 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/index/index_detail"
+		},
+		{
+			"path": "pages/forum/forum"
+		},
+		{
+			"path": "pages/me/me"
+		},
+		{
+			"path": "pages/news/news"
+		},
+		{
+            "path" : "pages/news/news-detail/news-detail1"
+        },
+		{
+		    "path" : "pages/news/news-detail/news-detail2"
+		},
+		{
+		    "path" : "pages/news/news-detail/news-detail3"
+		},
+		{
+		    "path" : "pages/news/news-detail/news-detail4"
+		},
+		{
+		    "path" : "pages/news/news-detail/news-detail5"
+		},
+		{
+		    "path" : "pages/news/news-detail/news-detail6"
+		},
+		{
+		    "path" : "pages/news/news-detail/news-detail7"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "nuc_guide",
+		"navigationBarBackgroundColor":"#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"selectedColor":"#b50e03",
+		"color":"#ccc",
+		"list":[
+			{
+				"text":"主页",
+				"pagePath":"pages/index/index",
+				"selectedIconPath":"static/home-active.png",
+				"iconPath":"static/home.png"
+			},
+			{
+				"text":"通知",
+				"pagePath":"pages/news/news",
+				"selectedIconPath":"static/news-active.png",
+				"iconPath":"static/news.png"
+			},
+			{
+				"text":"论坛",
+				"pagePath":"pages/forum/forum",
+				"selectedIconPath":"./static/forum-active.png",
+				"iconPath":"static/forum.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/me/me",
+				"selectedIconPath":"static/member-active.png",
+				"iconPath":"static/member.png"
+			}
+		]
+	}
+}
