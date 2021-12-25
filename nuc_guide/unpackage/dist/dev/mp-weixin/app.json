@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/index/index_detail",
+    "pages/index/index_detail2",
     "pages/forum/forum",
     "pages/me/me",
     "pages/news/news",

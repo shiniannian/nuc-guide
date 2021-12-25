@@ -7,6 +7,9 @@
 			"path": "pages/index/index_detail"
 		},
 		{
+			"path": "pages/index/index_detail2"
+		},
+		{
 			"path": "pages/forum/forum"
 		},
 		{
